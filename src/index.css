@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Founders Grotesk SemiBold Font */
+@font-face {
+    font-family: 'Founders Grotesk';
+    src: url('/public/Fonts/FoundersGrotesk-Semibold.ttf') format('truetype');
+    font-weight: 600; /* Semi-Bold */
+    font-style: normal;
+  }
+  
+  /* Neue Montreal Regular Font */
+  @font-face {
+    font-family: 'Neue Montreal';
+    src: url('/public/Fonts/NeueMontreal-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+  }
+  
+  /* Neue Montreal SemiBold Font */
+  @font-face {
+    font-family: 'Neue Montreal';
+    src: url('/fonts/NeueMontreal-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* Semi-Bold */
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Icomoon';
+    src: url('/public/Fonts/Icomoon.ttf') format('truetype');
+  }
+
