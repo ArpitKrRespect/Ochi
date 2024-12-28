@@ -30,3 +30,6 @@
     src: url('/public/Fonts/Icomoon.ttf') format('truetype');
   }
 
+*{
+  background-color: rgb(17, 16, 16);
+}
