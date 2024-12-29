@@ -64,7 +64,7 @@ const Eyes = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-[100px]"></div>
+            <div className="w-full h-[20px]"></div>
         </div>
     );
 };

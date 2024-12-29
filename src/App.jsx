@@ -1,5 +1,6 @@
 import About from "./Components/About"
 import Eyes from "./Components/Eyes"
+import FeaturedSection from "./Components/FeaturedSection"
 import LandingPage from "./Components/LandingPage"
 import Marquee from "./Components/Marquee"
 import Navbar from "./Components/Navbar"
@@ -13,6 +14,7 @@ const App = () => {
         <Marquee/>
         <About/>
         <Eyes/>
+        <FeaturedSection/>
       </div>
       
     </>
