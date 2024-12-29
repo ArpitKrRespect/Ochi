@@ -1,4 +1,5 @@
 import About from "./Components/About"
+import Cards from "./Components/Cards"
 import Eyes from "./Components/Eyes"
 import FeaturedSection from "./Components/FeaturedSection"
 import LandingPage from "./Components/LandingPage"
@@ -15,6 +16,7 @@ const App = () => {
         <About/>
         <Eyes/>
         <FeaturedSection/>
+        <Cards/>
       </div>
       
     </>
