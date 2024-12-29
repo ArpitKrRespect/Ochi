@@ -19,7 +19,7 @@ const About = () => {
           </div>
           <div className="w-full md:w-1/2 rounded-xl overflow-hidden">
             <img
-              src="/public/Images/Homepage-Photo-663x469.jpg"
+              src="/Images/Homepage-Photo-663x469.jpg"
               className="rounded-xl w-full h-auto max-h-[300px] object-cover"
               alt="About Us"
             />

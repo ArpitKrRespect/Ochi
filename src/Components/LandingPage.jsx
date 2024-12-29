@@ -4,17 +4,23 @@ const LandingPage = () => {
   return (
     <div className="h-screen w-full pt-1">
       <div className="textstructure mt-52 px-20">
-        {["We Create", "Eye Opening", "Websites"].map((item, index) => (
-          <div className="masker" key={index}>
-            <div className="w-fit flex items-center">
-                {index===1 && (<div className="w-[7vw] h-[4.5vw] mt-[0.5vw] mr-1 bg-red-900 rounded-sm"></div>)}
-                <h1 className="uppercase leading-[5.5vw] text-[7vw] tracking-tight font-founders mb-0">
-                    {item}
-                </h1>
-            </div>
-          </div>
-        ))}
+  {["We Create", "Eye Opening", "Websites"].map((item, index) => (
+    <div className="masker" key={index}>
+      <div className="w-fit flex items-center">
+        {index === 1 && (
+          <div 
+            className="w-[7vw] h-[4.5vw] mt-[0.5vw] mr-1 bg-red-900 bg-[url('/Images/BlockAnimation.jpg')] bg-cover bg-center rounded-sm"
+            style={{backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}
+          ></div>
+        )}
+        <h1 className="uppercase leading-[5.5vw] text-[7vw] tracking-tight font-founders mb-0">
+          {item}
+        </h1>
       </div>
+    </div>
+  ))}
+</div>
+
 
       <div className="border-t-2 border-zinc-800 mt-20 w-full flex justify-between items-center py-5 px-10 ">
         <div className="flex flex-col md:flex-row justify-between w-full md:w-[50%] gap-8 md:gap-20 mb-6 ">
