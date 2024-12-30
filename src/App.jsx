@@ -6,8 +6,17 @@ import Footer from "./Components/Footer"
 import LandingPage from "./Components/LandingPage"
 import Marquee from "./Components/Marquee"
 import Navbar from "./Components/Navbar"
+import LocomotiveScroll from 'locomotive-scroll';
+
+
+
 
 const App = () => {
+
+  // eslint-disable-next-line no-unused-vars
+  const locomotiveScroll = new LocomotiveScroll();
+
+
   return (
     <>
       <div className=" w-full h-full text-cyan-600 "> 
