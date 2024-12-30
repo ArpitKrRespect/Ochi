@@ -25,14 +25,14 @@ const Cards = () => {
   
         <div className="cardcontainer flex flex-col lg:flex-row gap-5 w-full lg:w-1/2 h-[50vh]">
           <div className="card rounded-xl w-full lg:w-1/2 bg-[#212121] card relative h-full flex items-center justify-center">
-            <img src="/public/Images/Clutch.svg" className="bg-inherit" />
+            <img src="/Images/Clutch.svg" className="bg-inherit" />
             <button className="absolute left-5 bottom-5 lg:bottom-8 uppercase bg-[#CDEA68] text-black text-[0.7em] font-neue border-[1px] border-cyan-800 rounded-full px-2">
               Rated 5.0 on clutch
             </button>
           </div>
           <div className="card rounded-xl w-full lg:w-1/2 h-full bg-[#212121] text-black card relative flex items-center justify-center">
             <img
-              src="/public/Images/AcademyLogo.png"
+              src="/Images/AcademyLogo.png"
               className="bg-inherit size-[15vh]"
               alt="Academy Logo"
             />
